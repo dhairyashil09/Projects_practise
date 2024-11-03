@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Job Application Form</h1>
+        <form action>
+          <div class="form_container">
+            <div class="form_control">
+              <label for="first_name">First Name</label>
+              <input type="text" name="first_name" id="first_name" />
+            </div>
+
+            <div class="form_control">
+              <label for="last_name">Last Name</label>
+              <input type="text" name="last_name" id="last_name" />
+            </div>
+
+            <div class="form_control">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <div class="form_control">
+              <label for="job_role">Job Role</label>
+              <select id="job_role" name="job_role">
+                <option value>Select Job Role</option>
+                <option value="Frontend">Front-End Developer</option>
+                <option value="backend">Back-end Developer</option>
+                <option value="Fullstack">Fullstack Developer</option>
+                <option value="Software">Software Developer</option>
+                <option value="Cloud">Cloud Engineer</option>
+              </select>
+            </div>
+            <div class="textarea_control">
+              <label for="address">Address</label>
+              <textarea
+                name="address"
+                id="address"
+                row="4"
+                cols="50"
+              ></textarea>
+            </div>
+
+            <div class="form_control">
+              <label for="city">City</label>
+              <input type="text" name="city" id="city" />
+            </div>
+            <div class="form_control">
+              <label for="pincode">Pin Code</label>
+              <input type="number" name="pincode" id="pincode" />
+            </div>
+
+            <div class="form_control">
+              <label for="ph_number">Mobile Number</label>
+              <input type="number" name="ph_number" id="ph_number" />
+            </div>
+
+            <div class="form_control">
+              <label for="file">Upload CV</label>
+              <input type="file" name="file" id="file" />
+            </div>
+          </div>
+          <div class="button_container">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <!----------------------New Secttion 
+
+
+<table class="table">
+    <tr class="row1">
+      <td>
+        <p>First Name</p>
+      </td>
+      <td>
+        <p>Last Name</p>
+      </td>
+    </tr>
+    <tr class="row2">
+      <td>
+        <input type="text" />
+      </td>
+      <td>
+        <input type="text" />
+      </td>
+    </tr>
+    <tr class="row3">
+      <td>
+        <p>Email</p>
+      </td>
+      <td>
+        <p>Job Role</p>
+      </td>
+    </tr>
+    <tr class="row4">
+      <td>
+        <input type="email" />
+      </td>
+      <td>
+        <select id="dropdown">
+          <option value>Select Job Role</option>
+          <option value="Frontend">Front-End Developer</option>
+          <option value="backend">Back-end Developer</option>
+          <option value="Fullstack">Fullstack Developer</option>
+          <option value="Software">Software Developer</option>
+          <option value="Cloud">Cloud Engineer</option>
+        </select>
+      </td>
+    </tr>
+    <tr class="row4">
+      <td colspan="2">
+        <p>Address</p>
+      </td>
+    </tr>
+    <tr class="row5">
+      <td colspan="2">
+        <textarea name="text" id cols="50" rows="10"></textarea>
+      </td>
+    </tr>
+    <tr class="row6">
+      <td>
+        <p>City</p>
+      </td>
+      <td>
+        <p>Pincode</p>
+      </td>
+    </tr>
+    <tr class="row7">
+      <td>
+        <input type="text" />
+      </td>
+      <td>
+        <input type="number" />
+      </td>
+    </tr>
+    <tr class="row8">
+      <td>
+        <p>Number</p>
+      </td>
+      <td>
+        <p>Upload CV</p>
+      </td>
+    </tr>
+    <tr class="row9">
+      <td>
+        <input type="number" />
+      </td>
+      <td>
+        <input type="file" />
+      </td>
+    </tr>
+
+    <tr class="row10">
+      <td colspan="2">
+        <input type="button" value="Submit" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+--------------------->
+</html>
