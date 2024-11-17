@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Guess the number
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="container">
+        <p>Try and guess Random Number Between 1 to 100</p>
+        <p>You have 10 attempt to guess right number</p>
+        <form class="form">
+            <h1>Guess a Number </h1>
+            <input type="number" class="input" id="input">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+            <!-- <button type="submit" id="submit">Submit Guess</button> -->
+        </form>
+        <div class="result">
+            <p class="Pguess">Previous Guess:- <span class="last_guess"></span></p>
+            <p class="count">Remaning Guess:- <span class="last_result"> 10 </span> </p>
+            <p class="LOWorHi"></p>
+        </div>
+            
+    </div>
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+        }
+        .container{
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* width: auto; */
+            /* margin: auto; */
+            border: 2px solid black;
+        }
+        input{
+            display: block;
+            justify-content: center;
+            margin: auto;
+            border: 3px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+     
+
+        button{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding:4px;
+        }
+        .Pguess, .count, p, h1{
+            display: flex;
+            justify-content: center;
+            /* margin: auto; */
+        }
+
+    </style>
+
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
