@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 100px;
+    width: 500px;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    min-width: 400px;
+    margin: 10px;
+    padding: 70px 20px;
+    color: white;
+    position: relative;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform : translateX(-50%);
+    top: -50px
+}
+
+.username{
+
+    font-size: 14px;
+    font-weight: 100;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button.forw{
+    margin: 0;
+    position: absolute;
+    left: 85%;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+button.back{
+    margin: 0;
+    position: absolute;
+    right: 85%;
+    background-color: transparent;
+    font-size: 40px;
+
+}
+
+
+
