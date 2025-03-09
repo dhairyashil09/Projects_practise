@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtistLive - Arijit Singh Live</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+
+    <!-- Leaderboard poster -->
+    <header>
+        <div class="poster">
+            <p>Arijit Singh Live Concert - Book Your Tickets Now!</p>
+            <button onclick="registerNow()">Register Now</button>
+        </div>
+    </header>
+    <div class="spacer-top"></div>
+
+    <!-- Main Content -->
+    <div class="container2">
+
+        <h1 class="h1">Arijit Singh Live in Concert</h1>
+        <p class="p">Join us for an unforgettable night of music with Arijit Singh! Book your spot now.</p>
+
+        <!-- Registration Form -->
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email ID" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="text" id="city" placeholder="City" required>
+            <button type="submit">Register</button>
+        </form>
+
+        <!-- Share Button -->
+        <button class="share-btn" onclick="shareEvent()">Share Event</button>
+    </div>
+
+    <div class="spacer-bottom"></div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

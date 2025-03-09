@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+
+.banner-slogan {
+    max-width: 100%;
+    height: 90px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 20px;
+
+
+}
+
+.banner-heading {
+    max-width: 510px;
+    width: 50%;
+}
+
+p.banner-desc {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #000000a1;
+    height: 580px;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 0 50px;
+    margin: 80px 30px 0 30px;
+}
+
+
+.banner-img img {
+    width: 100%;
+}
+
+
+.banner-heading h1 {
+    font-weight: 600;
+    color: #fff;
+    font-weight: 500;
+    color: #fff;
+    font-size: 61px;
+    text-align: left;
+}
+
+/* Register button */
+button.register-btn {
+    /* display: inline-block; */
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #deaa55;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color .3s ease-in
+}
+
+button.register-btn:hover {
+    background-color: #d1ad72dc;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Share button */
+button.share-btn {
+    /* display: inline-block; */
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #841617;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+    transition: background-color .3s ease-in
+}
+
+button.share-btn:hover {
+    background-color: #841618e4;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.banner-img {
+    width: 50%;
+}
+
+/* filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    /* Wrap filters on small screens */
+    justify-content: center;
+    /* Center align items */
+    gap: 10px;
+    /* Add spacing between elements */
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.filters input {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.filters select {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+/* filter button */
+.filterbtn {
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #841617;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    transition: background-color .3s ease-in
+}
+
+.filterbtn:hover {
+    background-color: #661113;
+    box-shadow: 0 0 10px rgb(117, 52, 52);
+}
+
+/* register concert now */
+.desc {
+    text-align: center;
+}
+
+/* form style */
+.form {
+    align-items: center;
+    margin: auto;
+    background-color: #f8ecc8;
+    padding: 20px 0;
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+#registerForm input {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+
+}
+
+/* Form submit button */
+#registerForm button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #deaa55;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color .5s ease-in;
+}
+
+#registerForm button:hover {
+    background-color: #841617;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* concert list */
+#eventList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.event {
+    background: #a9dae47c;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+/* singer image */
+.event img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* event register now */
+.event a {
+    display: inline-block;
+    background-color: #deaa55;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: background-color .3s ease-in;
+    cursor: pointer;
+
+}
+
+.register1 {
+    position: relative;
+    top: 15px;
+}
+
+.register2 {
+    position: relative;
+    top: 15px;
+}
+
+.register3 {
+    position: relative;
+    top: -5px
+}
+
+a:hover {
+    background-color: #841617;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* * poster */ 
+.poster {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.poster button {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:  #deaa55;
+    color: white;
+
+}
+/* event container */
+.container2 {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #f8ecc8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+.spacer-top {
+    height: 400px; }
+.spacer-bottom {
+    height: 200px; 
+}
+
+
+/* conformation page */
+.downloadbtn{
+    display: flex;
+    font-weight: bold;
+    margin: auto;
+    background:#deaa55;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+
+@media (max-width: 720px) {
+    .banner-info{
+        display: block;
+    }
+    
+    .banner-heading h1 {
+        font-size: 30px;
+    }
+
+    button.register-btn {
+        padding: 9px 41px;
+
+    }
+
+    button.share-btn {
+        margin: 10px 0;
+        padding: 9px 50px;
+    }
+
+    .form {
+        width: 70%;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register1, .register2,.register3  {
+        position: static;
+    }
+
+}
