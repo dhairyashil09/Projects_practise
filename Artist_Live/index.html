@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Live</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <div class="banner-slogan">
+                <span>Arijit Singh Live Concert - Book Your Tickets Now!</span>
+
+            </div>
+            <div class="banner-info">
+                <div class="banner-heading">
+                    <h1>
+                        Lorem Ipsum is simply dummy
+                    </h1>
+                    <p class="banner-desc">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                    <button class="register-btn" onclick="registerNow()">Register</button>
+                    <button class="share-btn" onclick="shareEvent()">Share Event</button>
+                </div>
+                <div class="banner-img">
+                    <img src="images/as.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="desc">
+        <h3>Register Concert Now!</h2>
+    </div>
+
+
+    <div class="form">
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            
+            <input type="email" id="email" placeholder="Email ID" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="text" id="city" placeholder="City" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <div class="filters">
+        <select id="area">
+            <option value="all">Select City</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bengaluru">Bengaluru</option>
+        </select>
+
+
+        <select id="price">
+            <option value="all">Price Range</option>
+            <option value="low">Below ₹500</option>
+            <option value="mid">₹500 - ₹2000</option>
+            <option value="high">Above ₹2000</option>
+        </select>
+
+        <input type="date" id="date">
+
+        <button class="filterbtn" onclick="filterEvents()">Apply Filters</button>
+    </div>
+    <div id="eventList">
+    
+        <div class="event" data-area="bengaluru" data-price="high" data-date="2025-04-15">
+            <div> <img src="images/sonu.jpg" height="225px" width="225px" alt="Sonu Nigam Live">
+            <h2>Sonu Nigam Night</h2>
+            <p>Location: Sri Kanteerava Outdoor Stadium, <br> Bengaluru</p>
+            <p>Date: 15 April 2025</p>
+            <p>Price: ₹3000</p>
+
+            </div>
+            <div class="register-btn"> <a class="register3" onclick="alert('Booking Not Started Yet');">Register Now</a></div>
+        </div>
+        <div class="event" data-area="delhi" data-price="low" data-date="2025-04-05">
+            <div>
+            <img src="images/shreya.jpg" height="225px" width="225px" style="border-radius: 20px;"
+                alt="Shreya Ghoshal Live">
+            <h2>Shreya Ghoshal Concert</h2>
+            <p>Location: Arun Jaitley Stadium, <br> Delhi</p>
+            <p>Date: 5 April 2025</p>
+            <p>Price: ₹400</p>
+            </div>
+            <div class="register-btn"> <a class="register2 " onclick="alert('Booking Not Started Yet');">Register Now</a></div>
+
+        </div>
+
+     
+        <div class="event" data-area="mumbai" data-price="mid" data-date="2025-03-20">
+            <div>
+            <img src="images/arijit.jpg" height="225px" width="225px" alt="Arijit Singh Live">
+            <h2>Arijit Singh Live</h2>
+            <p>Location: DY Patil Stadium, <br>Navi Mumbai</p>
+            <p>Date: 20 March 2025</p>
+            <p>Price: ₹1500</p>
+        </div>
+            <div class="register-btn"><a class="register1" onclick="registerNow()">Register Now</a></div>
+        </div>
+    </div>
+    <div class="footer">
+       <div><h3>Book Now</h3></div> 
+        <div class="contact-info">
+            <a href="www.arjitsingh.com" >www.arjitsingh.com</a>
+            <a href="tel:123456789">123456789</a>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

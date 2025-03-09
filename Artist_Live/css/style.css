@@ -1,0 +1,601 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 21px;
+}
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+
+.banner-slogan {
+    max-width: 100%;
+    height: 90px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 700;
+    padding: 0 20px;
+    max-width: 728px;
+    margin: 0 auto;
+    line-height: 18px;
+}
+
+.banner-heading {
+    max-width: 510px;
+    width: 50%;
+}
+
+p.banner-desc {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #000000a1;
+    height: 580px;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 0 50px;
+    margin: 80px 30px 0 30px;
+    border: 1px solid #fff;
+}
+
+
+.banner-img img {
+    width: 100%;
+}
+
+
+.banner-heading h1 {
+    font-weight: 700;
+    color: #fff;
+    color: #fff;
+    font-size: 61px;
+    text-align: left;
+}
+
+/* Register button */
+button.register-btn {
+    /* display: inline-block; */
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #deaa55;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color .3s ease-in
+}
+
+button.register-btn:hover {
+    background-color: #d1ad72dc;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+/* Share button */
+button.share-btn,
+.downloadbtn {
+    /* display: inline-block; */
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #841617;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+    transition: background-color .3s ease-in;
+    cursor: pointer;
+}
+
+button.share-btn:hover {
+    background-color: #841618e4;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.banner-img {
+    width: 50%;
+}
+
+/* filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 10px;
+
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.filters input {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.filters select {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+/* filter button */
+.filterbtn {
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #841617;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    transition: background-color .3s ease-in;
+    cursor: pointer;
+}
+
+.filterbtn:hover {
+    background-color: #661113;
+    box-shadow: 0 0 10px rgb(117, 52, 52);
+}
+
+/* register concert now */
+.desc {
+    text-align: center;
+}
+
+/* form style */
+.form {
+    align-items: center;
+    margin: auto;
+    background-color: #f8ecc8;
+    padding: 20px 0;
+    border-radius: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+#registerForm input {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+
+}
+
+/* Form submit button */
+#registerForm button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #deaa55;
+    color: #000;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color .5s ease-in;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+#registerForm button:hover {
+    background-color: #841617;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/* concert list */
+#eventList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+::placeholder {
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+.event {
+    background: #a9dae47c;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+/* singer image */
+.event img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* event register now */
+.event a {
+    display: inline-block;
+    background-color: #deaa55;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: background-color .3s ease-in;
+    cursor: pointer;
+
+}
+
+.register1 {
+    position: relative;
+    top: 15px;
+}
+
+.register2 {
+    position: relative;
+    top: 15px;
+}
+
+.register3 {
+    position: relative;
+    top: -5px
+}
+
+a:hover {
+    background-color: #841617;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+button.share-btn2 {
+    padding: 9px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #841617;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    margin-left: 0px;
+    transition: background-color .3s ease-in;
+    cursor: pointer;
+}
+
+button.share-btn:hover {
+    background-color: #841618e4;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+
+/* * poster */
+.poster {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.poster button {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #deaa55;
+    color: #000;
+
+
+}
+
+.poster button:hover {
+    color: #fff;
+}
+
+
+.container2 {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #f8ecc8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.spacer-top {
+    height: 200px;
+}
+
+.spacer-bottom {
+    height: 200px;
+}
+
+
+/* conformation page */
+.downloadbtn {
+    background: #deaa55;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.footer {
+    background-color: #841617;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 15px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.contact-info a {
+    color: #fff;
+    font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+
+    .banner-heading h1 {
+        font-size: 51px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner-slogan {
+        font-size: 22px;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .banner-heading {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .banner-img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .banner-info {
+        display: block;
+    }
+
+    .banner-heading h1 {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    button.register-btn {
+        padding: 9px 41px;
+        margin-bottom: 50px;
+
+
+    }
+
+    button.share-btn {
+        margin: 10px 0;
+        padding: 9px 50px;
+    }
+
+
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register1,
+    .register2,
+    .register3 {
+        position: static;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .banner-slogan {
+        font-size: 22px;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .banner-heading h1 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .banner-info {
+        padding: 0 16px;
+    }
+
+    button.register-btn {
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    button.share-btn {
+
+        width: 100%;
+    }
+
+    .form {
+        /* margin: 0 15px; */
+        width: 90%;
+    }
+
+    .filters select {
+
+        width: 90%;
+    }
+
+    .filters input {
+        width: 78%;
+    }
+}
